@@ -1,0 +1,11 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - sudo update-ca-certificates -f
+      - mvn clean install
+
+artifacts:
+  files:
+    - target/reservation-service-1.0.jar

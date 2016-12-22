@@ -1,0 +1,6 @@
+applications:
+- name: ankara-devfest-demo
+  host: ankara-devfest-demo
+  buildpack: java_buildpack
+  path: target/reservation-service-1.0.jar
+  domain: cfapps.io
